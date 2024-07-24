@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.clr{
+    clear: both;
+}
+
+body{font-family: "Alegreya Sans", sans-serif;}
+h1,h1,h3,h4,h5,h6{
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+}
+/* navbar */
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.navbar:hover{
+    background-color: rgb(110, 110, 110); 
+}
+/* .navbar:hover.a{
+    color: black;
+} */
+.cont{
+    width: 80%;
+    margin: auto;
+}
+.logo{
+    float:left ;
+}
+.logo img{
+    width: 180px;
+}
+.link{
+    float: right;
+}
+.link ul{
+    list-style-type: none;
+    
+}
+.link li{
+    display: inline-block;
+    padding: 16px;
+}
+.link a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+/* .link .a1{
+    color: rgb(56, 19, 50);
+} */
+.link a:hover{
+    color: black;
+}
+/* end navbar */
+
+
+/* header */
+.homecontainer{
+    background-image: url(../images/homeimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    color: antiquewhite;
+    text-align: center;
+    /* background-clip: text;
+    color: transparent; */
+}
+.ovarlay{
+    background-color: rgba(0, 0, 0, .3);
+    height: 100%; 
+}
+.header-cont{
+    padding-top: 200px;
+}
+.header-cont h1{
+    font-size: 76px;
+    margin: 20px 0px;
+}
+.header-cont span{
+    font-size: 22px;
+}
+.header-cont p{
+    font-size: 24px;
+}
+.btn{
+    margin-top: 20px;
+    padding: 15px 28px;
+    border: 0px;
+    border-radius: 3px;
+    color: aliceblue;
+}
+.bt-learn{
+    background-color: #8f7854;
+    border: 3px solid #8f7854;
+    margin-right: 4px;
+}
+/* .bt-learn:hover{
+    background-color: antiquewhite;
+    color: black;
+} */
+.bt-cont{
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    margin-left: 4px;
+}
+/* .bt-cont:hover{
+    background-color: antiquewhite;
+    color: black;
+} */
+.btn a{
+    text-decoration: none;
+    color: antiquewhite;
+    list-style: none;
+}
+/* end header */
+
+/* -----how we----- */
+.how-we{
+    margin-top: 60px;
+}
+.img1{
+    width: 100%;
+
+}
+.info-img{
+    width: 43%;
+    height: 600px;
+    /* display: inline-block; */
+    float: left;
+    padding: 30px;
+    vertical-align: text-top;
+}
+.info-item{
+    text-align: left;
+}
+.icon{
+    padding-top: 20px;
+    vertical-align:text-bottom;
+    padding: auto; 
+}
+.icon-text{
+    vertical-align:super;
+}
+.info-patr2{
+    float: left;
+}
+
+/* ----- end how we styling section------ */
+
+ /* Our Baking */
+.varieties{
+    /* width: 80%; */
+    margin: auto;
+    overflow: hidden;
+}
+.varieties p{
+    padding: 10px;
+    color: rgb(83, 81, 81);
+    font-size: 18px;
+}
+.var-item{
+    width: 33.33%;
+    float: left;
+    padding-top: 30px;
+}
+.var-img{
+    width: 90%;
+    padding-top: 10px;
+}
+.info{
+    padding-top: 50px;
+
+}
+/* end Our Baking styling section */
+
+/* our location */
+.our-location{
+    background-color: rgb(250, 249, 249);
+    height: 700px;
+    float: left;
+    
+    margin-top: 0px;
+  
+}
+.container1{
+    width: 80%;
+}
+.loc-text{
+
+    text-align: left;
+    padding-top: 100px;
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right:30px ;
+}
+.loc-text h2{
+    font-size: 32px;
+    font-weight: 400;
+    color:rgb(48, 48, 48);
+    padding-bottom: 20px;
+}
+.loc-text p{
+    color: rgb(104, 104, 104);
+    font-size: 17px;
+    font-weight: 400;
+}
+.loc-img{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+.loc-img img{
+    /* width: 100%; */
+    padding-top: 100px;
+    width:600px;
+    height:450px;
+    
+}
+.info-loc{
+    width: 43%;
+    height: 600px;
+    /* display: inline-block; */
+    float: left;
+    padding: 30px;
+    vertical-align: text-top;
+}
+
+/* end our location styling section */
+
+/* contact information */
+ 
+.contact-info{
+    background-color: rgb(250, 249, 249);
+    height: 700px;
+    float: left;
+    
+    margin-top: 0px;
+}
+
+.contac-text{
+
+    text-align: left;
+    /* padding-top: 100px; */
+    margin-top: 200px;
+    margin-left: 10px;
+    /* margin-right:30px ; */
+    padding-right: 20px;
+}
+.info-contac{
+    width: 43%;
+    height: 600px;
+    /* display: inline-block; */
+    float: left;
+    padding: 30px;
+    vertical-align: text-top;
+}
+.contac-img iframe{
+    /* width: 100%; */
+    padding-top: 100px;
+    width:600px;
+    height:650px;
+    float: left;
+}
+.icons p{
+    padding-bottom: 30px;
+}
+.cont-infi-icon{
+    vertical-align:middle;
+    width: 40px;
+    margin: 10px ;
+    padding: auto;
+    border-radius: 50%;
+    background-color: rgb(142, 119, 84);
+}
+.info-contac-patr2{
+   float: left;
+}
+.icons{
+    padding-top: 20px;
+}
+.icon-text2{
+    padding-top: 0;  
+}
+.contacinfo-patr2{
+    float: left;
+    background-color: blueviolet;
+    border-radius: 50% solid black;
+    border-block-color: pink lightblue;
+}
+
+/* end contact information */
+
+ /*style of footer   */
+.foote{
+    font-size: 14px;
+    /* padding-top: 40px; */
+    margin-top: 200px;
+}
+.footer {
+    margin-top: 100px;
+    /* background-image: url(../images/contact-details-map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+
+    background-color: rgba(43, 42, 42,.9);
+    color: #797979;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+.containertow{
+    width: 100%;
+    display: inline-block;
+}
+.foot-div{
+    width: 23%;
+    height: 350px;
+    float: left;
+    text-align: left;
+    margin: 10px;
+}
+.fot-div1{
+    padding-top: 92px; 
+}
+.fot-div2{
+    padding-top: 60px;
+}
+.fot-div3{
+    padding-top: 30px;
+}
+.container-foot {
+    margin-left: 150px;
+    width: 90%;
+    height: 500px;
+    margin-left: 60px;
+}
+.foot-div h3{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+}
+.foot-div p,span,li,a{
+    color: rgb(150, 150, 150);
+    font-size: 16px;
+}
+.foot-div a{
+    text-decoration: none;
+}
+.foot-div ul{
+    list-style-type: none;
+}
+.ss{
+    width: 20px;
+}
+.arrow{
+    width: 20px;
+}
+.foot-div span p{
+    display: inline ;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-color: #b8b3b3;
+
+}
+.con-img{
+    background-image: url(../images/contact-details-map.png);
+    background-size: cover;
+    background-position: center;
+}
+.footer-bottom {
+    background: #2c2b2b;
+    height: 350px;
+}
+.footer-image{
+    padding-top: 60px;
+}
+.foot-text{
+    padding-top: 30px;
+}
+.arrow1{
+    margin-top: 20px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: #5c5954;
+    background-color: #5c5954;
+}
+.img-block{
+    display: inline-block;
+}
